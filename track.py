@@ -87,7 +87,7 @@ try:
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
-    print(f"已处理视频部分的累计车辆 ID 数：{len(seen_ids)}")
+        print(f"已处理视频部分的累计车辆 ID 数：{len(seen_ids)}")
 
 finally:
     cap.release()
