@@ -15,6 +15,26 @@ try:
     cv2.namedWindow("YOLO", cv2.WINDOW_NORMAL)
     cv2.resizeWindow("YOLO", 250, 250)
 
+    # 获取视频总帧数
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    # 标记是否正在由程序更新进度条
+    updating_progress = False
+    # 用户拖动进度条时，跳转到指定帧
+    def on_progress(position):
+        if not updating_progress:
+            cap.set(cv2.CAP_PROP_POS_FRAMES, position)
+
+    if total_frames > 1:
+        cv2.createTrackbar(
+            "Progress",
+            "YOLO",
+            0,
+            total_frames - 1,
+            on_progress,
+        )
+
+
+
     while True:
         ret, frame = cap.read()
 
