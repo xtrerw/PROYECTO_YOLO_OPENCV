@@ -1,0 +1,8 @@
+Processed frames: 9542
+Track IDs: 298
+Seeks: 2 (counts below and Track IDs refer to the last segment)
+IDs entering region: 97
+Classes by first observation: {'car': 222, 'person': 68, 'truck': 5, 'bus': 2, 'motorcycle': 1}
+Track IDs may fragment; these are not exact unique object counts.
+CSV segment distinguishes IDs after seeking; saved video follows playback order.
+Region is a fixed image polygon, not lane detection or collision prediction.

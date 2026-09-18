@@ -1,0 +1,8 @@
+Processed frames: 3
+Track IDs: 0
+Seeks: 0 (counts below and Track IDs refer to the last segment)
+IDs entering region: 0
+Classes by first observation: {}
+Track IDs may fragment; these are not exact unique object counts.
+CSV segment distinguishes IDs after seeking; saved video follows playback order.
+Region is a fixed image polygon, not lane detection or collision prediction.
