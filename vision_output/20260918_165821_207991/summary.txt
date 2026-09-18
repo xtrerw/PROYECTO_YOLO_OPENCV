@@ -1,6 +1,0 @@
-Processed frames: 90
-Track IDs: 5
-IDs entering region: 0
-Classes by first observation: {'person': 4, 'car': 1}
-Track IDs may fragment; these are not exact unique object counts.
-Region is a fixed image polygon, not lane detection or collision prediction.
